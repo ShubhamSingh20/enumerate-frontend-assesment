@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const API_URL = "http://api.weatherapi.com/v1"
+const API_URL = "https://api.weatherapi.com/v1"
 const API_HISTORY = "history.json"
 const API_FORECAST = "forecast.json"
 const API_KEY = "7dc79ae22c9441a6a4b151803221305"
