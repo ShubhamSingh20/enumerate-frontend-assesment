@@ -35,7 +35,6 @@ export default function useWeather() {
       .then(async (res) => {
         const jsonResponse = await res.json()
 
-        console.log(res.status)
         if(parseInt(res.status) >= 400) {
           setError(jsonResponse.error)
           setForCastData(null)
